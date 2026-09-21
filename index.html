@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kota Mo - mo3log-kal</title>
+    <style>
+        :root {
+            --primary-color: #1e272e;
+            --secondary-color: #0984e3;
+            --accent-color: #fd79a8;
+            --light-color: #f5f6fa;
+            --dark-color: #1e272e;
+            --font-primary: 'Arial', sans-serif;
+            --font-secondary: 'Georgia', serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-primary);
+            line-height: 1.6;
+            color: var(--dark-color);
+            background-color: var(--light-color);
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            font-family: var(--font-secondary);
+        }
+
+        header p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        section {
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        section h2 {
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+            font-size: 1.8rem;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 0.5rem;
+        }
+
+        .ai-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .ai-card {
+            background: var(--light-color);
+            border-radius: 8px;
+            padding: 1.5rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-decoration: none;
+            color: var(--dark-color);
+            display: block;
+        }
+
+        .ai-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        .ai-card h3 {
+            color: var(--accent-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .ai-card p {
+            color: var(--dark-color);
+            margin-bottom: 1rem;
+        }
+
+        .ai-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            color: var(--primary-color);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: var(--primary-color);
+            color: white;
+            margin-top: 2rem;
+        }
+
+        footer a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            .ai-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>mo3log-kal</h1>
+        <p>Personality characteristics of the creator through AI observations and architecture.</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>About mo3log-kal</h2>
+            <p>
+                mo3log-kal is an innovative project that leverages AI to analyze and interpret personality characteristics 
+                through architectural patterns. This project explores the intersection of artificial intelligence and human 
+                behavior, providing insights into how personality traits can be understood and visualized through computational models.
+            </p>
+            <p>
+                By using advanced algorithms and data-driven approaches, mo3log-kal offers a unique perspective on 
+                personality analysis, making it a valuable tool for researchers, psychologists, and AI enthusiasts.
+            </p>
+        </section>
+
+        <section>
+            <h2>Explore More</h2>
+            <div class="ai-grid">
+                <a href="https://github.com/198466400/Adhdakota.pro" class="ai-card">
+                    <h3>Adhdakota.pro</h3>
+                    <p>Fully Customizable Operating Systems</p>
+                    <div class="ai-meta">
+                        <span>HTML</span>
+                        <span>Public</span>
+                    </div>
+                </a>
+                <a href="https://github.com/198466400/DiamondPlat3" class="ai-card">
+                    <h3>DiamondPlat3</h3>
+                    <p>INT Forge Studio - Cognitive Transformation Engine</p>
+                    <div class="ai-meta">
+                        <span>HTML</span>
+                        <span>Public</span>
+                    </div>
+                </a>
+                <a href="https://github.com/198466400/portfolio" class="ai-card">
+                    <h3>Portfolio</h3>
+                    <p>Public portfolio showcasing skills and projects</p>
+                    <div class="ai-meta">
+                        <span>HTML</span>
+                        <span>Public</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Kota Mo. All rights reserved.</p>
+        <p>
+            <a href="https://github.com/198466400">GitHub Profile</a> |
+            <a href="https://www.linkedin.com/in/19866400dcreator">LinkedIn</a>
+        </p>
+    </footer>
+</body>
+</html>
